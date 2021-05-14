@@ -2,8 +2,24 @@ import logo from './logo.svg';
 import './App.css';
 import Greetings from './components/Greetings';
 import SimpleForm from './components/SimpleForm';
+import Navbar from './components/navbar/Navbar';
+import Technologies from './components/technologies/Technologies';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 
 function App() {
+   return (<div>
+      {/* <Header /> */}
+      <Header />
+      <Technologies />
+      <Footer />
+     {/*<Navbar /> */} 
+    </div>);
+}
+
+export default App;
+
+/*
   return (
     <div className="App">
       <header className="App-header">
@@ -25,7 +41,4 @@ function App() {
         <SimpleForm />
       </div>
     </div>
-  );
-}
-
-export default App;
+  ); */

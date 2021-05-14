@@ -1,25 +1,8 @@
-//import Greetings from './Greetings';
+//import React, { useState } from 'react';
+import Greetings from './Greetings';
 
-const SimpleForm = () => (
-  state = {
-      firstName: '',
-  };
-
-  onFirstNameChange = event => {
-    this.setState({
-      firstName: event.target.value
-    })
-  };
-
-  const onFirstNameChange = event => 
-  
-  return (
-      <div>
-        <input type="text" name="firstName" onChange={this.onFirstNameChange} />
-
-        <Greetings firstName={this.state.firstName} />
-      </div>
-    );
-);
+const SimpleForm = () => {
+return (<div>Hello</div>);
+};
 
 export default SimpleForm;
